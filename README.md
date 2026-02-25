@@ -19,9 +19,7 @@ This tool automates the retrieval of Microsoft 365 "Optimize" and "Allow" endpoi
 ## Installation
 Clone the repository:
 
-Bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+```git clone https://github.com/cstoll92/panw-decryption-exclude-microsoft.git```
 
 **Install the dependencies** using pip install -r requirements.txt
 **Rename .env.example to .env** and populate your variables in this file generated while creating the service account. The .env is included in the .gitignore to ensure it does not accidentally get checked into a git repo.
