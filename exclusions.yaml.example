@@ -1,0 +1,7 @@
+exclusions:
+  - domain: "localcreditunion.com"
+    reason: "Financial Privacy"
+  - domain: "zoom.us"
+    reason: "Performance/Latency"
+  - domain: "healthportal.local"
+    reason: "HIPAA Compliance"
