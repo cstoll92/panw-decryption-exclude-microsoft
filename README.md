@@ -21,14 +21,14 @@ Clone the repository:
 
 ```git clone https://github.com/cstoll92/panw-decryption-exclude-microsoft.git```
 
-**Install the dependencies** using pip install -r requirements.txt
+**Install the dependencies** using ```pip install -r requirements.txt```
 **Rename .env.example to .env** and populate your variables in this file generated while creating the service account. The .env is included in the .gitignore to ensure it does not accidentally get checked into a git repo.
 
 ## Usage
 Run the script from your terminal:
 
 Bash
-python main.py
+```python main.py```
 
 ### The Workflow:
 Fetch: The script pulls FQDNs from Microsoft.
